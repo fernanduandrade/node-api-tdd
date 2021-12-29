@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest --detectOpenHandles --silent=false"
   },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
   }
 }
